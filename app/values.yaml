@@ -15,6 +15,9 @@ app:
     type: ClusterIP
     port: 8080
 
+database:
+  enabled: false
+
 test:
   enabled: true
   connection:
